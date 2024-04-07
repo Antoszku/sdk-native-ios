@@ -23,7 +23,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/airbnb/lottie-ios",
-            .upToNextMajor(from: "4.4.2")
+            exact: "4.2.0"
         )
     ],
     targets: [

@@ -1,43 +1,42 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "Apollo",
-        "repositoryURL": "https://github.com/apollographql/apollo-ios",
-        "state": {
-          "branch": null,
-          "revision": "84c8fc2448d6b7285481bfa25da12668083859eb",
-          "version": "0.49.1"
-        }
-      },
-      {
-        "package": "Kingfisher",
-        "repositoryURL": "https://github.com/onevcat/Kingfisher.git",
-        "state": {
-          "branch": null,
-          "revision": "5b92f029fab2cce44386d28588098b5be0824ef5",
-          "version": "7.11.0"
-        }
-      },
-      {
-        "package": "Lottie",
-        "repositoryURL": "https://github.com/airbnb/lottie-ios",
-        "state": {
-          "branch": null,
-          "revision": "ab15129d567eda5da0631fcba23de60144a612f4",
-          "version": "4.4.2"
-        }
-      },
-      {
-        "package": "SQLite.swift",
-        "repositoryURL": "https://github.com/stephencelis/SQLite.swift.git",
-        "state": {
-          "branch": null,
-          "revision": "0a9893ec030501a3956bee572d6b4fdd3ae158a1",
-          "version": "0.12.2"
-        }
+  "originHash" : "2e32bafc63d8c001fb7e5afe97a2e74fef802fcc76a112d42c1f62d40fdcb353",
+  "pins" : [
+    {
+      "identity" : "apollo-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apollographql/apollo-ios",
+      "state" : {
+        "revision" : "84c8fc2448d6b7285481bfa25da12668083859eb",
+        "version" : "0.49.1"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "5b92f029fab2cce44386d28588098b5be0824ef5",
+        "version" : "7.11.0"
+      }
+    },
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios",
+      "state" : {
+        "revision" : "d6feea26a370019b4d3a85f5984cb95a2734776f",
+        "version" : "4.2.0"
+      }
+    },
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/SQLite.swift.git",
+      "state" : {
+        "revision" : "0a9893ec030501a3956bee572d6b4fdd3ae158a1",
+        "version" : "0.12.2"
+      }
+    }
+  ],
+  "version" : 3
 }
