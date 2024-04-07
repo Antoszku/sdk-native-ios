@@ -1,11 +1,11 @@
-// swift-tools-version: 5.4
+// swift-tools-version: 5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
     name: "ZowieChatSDK",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v14)],
     products: [
         .library(
             name: "ZowieChatSDK",
@@ -14,17 +14,14 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            name: "Kingfisher",
             url: "https://github.com/onevcat/Kingfisher.git",
             .upToNextMajor(from: "7.8.0")
         ),
         .package(
-            name: "Apollo",
             url: "https://github.com/apollographql/apollo-ios",
-            .exact("0.49.1")
+            from: "0.49.1"
         ),
         .package(
-            name: "Lottie",
             url: "https://github.com/airbnb/lottie-ios",
             .upToNextMajor(from: "4.2.0")
         )
@@ -39,9 +36,9 @@ let package = Package(
             dependencies: [
                 .target(name: "ZowieSDK"),
                 .product(name: "Kingfisher", package: "Kingfisher"),
-                .product(name: "Lottie", package: "Lottie"),
-                .product(name: "Apollo", package: "Apollo"),
-                .product(name: "ApolloWebSocket", package: "Apollo"),
+                .product(name: "Lottie", package: "lottie-ios"),
+                .product(name: "Apollo", package: "apollo-ios"),
+                .product(name: "ApolloWebSocket", package: "apollo-ios"),
             ],
             path: "Sources"
         )
